@@ -11,8 +11,9 @@ This project demonstrates the implementation of a gRPC-based server and client i
 
 # 1. Clone the Repository
 
-git clone <repository-url>
-cd <repository-folder>
+git clone repository-url
+
+cd repository-folder
 
 # 2. Compile the `.proto` File
 
