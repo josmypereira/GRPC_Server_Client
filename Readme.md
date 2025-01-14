@@ -7,20 +7,6 @@ This project demonstrates the implementation of a gRPC-based server and client i
 1. Rust Toolchain: Ensure you have the Rust toolchain installed. If not, install it from https://rustup.rs.
 2. Protocol Buffer Compiler (`protoc`): Install the Protocol Buffer compiler from https://github.com/protocolbuffers/protobuf/releases.
 
-# Project Structure
-.
-├── Cargo.toml                # Project dependencies and metadata
-├── build.rs                  # Compiles the `.proto` files
-├── src
-│   ├── proto
-│   │   └── auth.proto        # Protocol Buffer definitions
-│   ├── service
-│   │   ├── auth.rs           # gRPC service implementation
-│   │   └── mod.rs            # Module definition
-│   ├── client.rs             # gRPC client implementation
-│   └── server.rs             # gRPC server implementation
-└── target                    # Build artifacts (generated after building)
-
 # Steps to Build and Run
 
 # 1. Clone the Repository
