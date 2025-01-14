@@ -2,7 +2,6 @@
 
 This project demonstrates the implementation of a gRPC-based server and client in Rust using **Tonic**, **Prost**, and **Protocol Buffers**. Below are the detailed steps for building, running, and understanding this project.
 
-```bash
 # Prerequisites
 
 1. Rust Toolchain: Ensure you have the Rust toolchain installed. If not, install it from https://rustup.rs.
